@@ -14,7 +14,7 @@ module.exports = {
   //     port: 8080,
   // },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.(jpg|jpeg|gif|png|ico)$/,
         exclude: /node_modules/,
