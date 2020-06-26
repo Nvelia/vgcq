@@ -6,8 +6,8 @@ const superagent = superagentPromise(_superagent, global.Promise);
 // export const SERVER_ROOT = "http://localhost:8000/";
 // const API_ROOT = "http://localhost:8000/api";
 
-export const SERVER_ROOT = "https://augend.portfolio-nvelia.com/";
-const API_ROOT = "https://augend.portfolio-nvelia.com/api";
+export const SERVER_ROOT = "https://vgcq.portfolio-nvelia.com/";
+const API_ROOT = "https://vgcq.portfolio-nvelia.com/api";
 
 const responseBody = (response) => response.body;
 
