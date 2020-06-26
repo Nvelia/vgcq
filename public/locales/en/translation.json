@@ -1,0 +1,149 @@
+{
+  "header": {
+    "menu-link-2": "Online Quiz"
+  },
+  "user-menu": {
+    "login-button": "Login"
+  },
+  "login-part": {
+    "title": "Connect to VGCQ",
+    "connect-text": "Or use your account",
+    "new-to-app": "New to VGCQ ?",
+    "join": "Join us !"
+  },
+  "login-form": {
+    "username-label": "Username",
+    "password-label": "Password",
+    "forgotten-pass": "Forgotten password ?",
+    "connect-button": "Login"
+  },
+  "register-part": {
+    "already-member": "Already a member ?",
+    "login-part-button": "Login !",
+    "title": "Join VGCQ"
+  },
+  "register-form": {
+    "username-label": "Username",
+    "password-label": "Password",
+    "retyped-password-label": "Retype password",
+    "email-label": "Email",
+    "cgu-text": "I agree with ",
+    "cgu-link": "terms and contracts",
+    "register-button": "Register",
+    "flash-message-success": "Register done, please check your email."
+  },
+  "change-password-form": {
+    "flash-message-success": "Password successfully changed.",
+    "old-password-label": "Actual password",
+    "new-password-label": "New password",
+    "retyped-new-password-label": "Retyped new password",
+    "submit-button": "Change password"
+  },
+  "image-browser": {
+    "delete-button": "Delete"
+  },
+  "gamesheet-list": {
+    "author": "Author",
+    "low-cards-number": "published card",
+    "high-cards-number": "published cards",
+    "no-sheet-message": "No gamesheet found. Login and create one.",
+    "no-unpublished-sheet": "No unpublished gamesheets found."
+  },
+  "card-list": {
+    "author": "Author",
+    "no-card-found": "No card found.",
+    "no-unpublished-card": "No unpublished card found."
+  },
+  "gamesheet": {
+    "no-cards": "No cards have been added on this gamesheet. You can login and add some.",
+    "page-not-found": "This gamesheet doesn't exist.",
+    "in-validation": "This gamesheet is waiting for validation."
+  },
+  "gamesheet-header": {
+    "card": "{{number}} card on this gamesheet.",
+    "cards": "{{number}} cards on this gamesheet."
+  },
+  "add-form-button": {
+    "card-text": "Card doesn't exist? Create it!",
+    "gamesheet-text": "Gamesheet doesn't exist? Create it!"
+  },
+  "load-more": {
+    "card-text": "Load more cards",
+    "gamesheet-text": "Load more gamesheets"
+  },
+  "sorting-container": {
+    "sort-options": "Choose a sort option",
+    "card-most-popular": "Most popular cards",
+    "gamesheet-most-popular": "Most popular gamesheets",
+    "card-less-popular": "Less popular cards",
+    "gamesheet-less-popular": "Less popular gamesheets"
+  },
+  "card-form": {
+    "flash-edit-success": "Card edited and validated",
+    "flash-add-success": "Card submitted. Waiting for validation.",
+    "content-label": "Card content. {{number}} characters remaining.",
+    "question-placeholder": "Question link to the content",
+    "question-label": "Question",
+    "answers-placeholder": "Accepted answers",
+    "answers-label": "Accepted answers (separate with a coma)",
+    "difficulty-label": "Question difficulty",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "submit-button": "Add card",
+    "no-difficulty": "You must choose a difficulty.",
+    "no-question": "You must write a question.",
+    "no-answers": "You must write one or multiple answers."
+  },
+  "image-upload": {
+    "input-title": "Click or drag to add image"
+  },
+  "search-gamesheet-form": {
+    "card-text": "Search by tag...",
+    "gamesheet-text": "Search gamesheet..."
+  },
+  "update-avatar-form": {
+    "flash-success": "Profile picture updated",
+    "submit-button": "Update picture"
+  },
+  "gamesheet-form": {
+    "flash-edit-success": "Gamesheet edited and validated",
+    "flash-add-success": "Gamesheet submitted. Waiting for validation",
+    "name-label": "Gamesheet name",
+    "submit-button": "Submit"
+  },
+  "bookmark-list": {
+    "favorite": "No favorite gamesheet"
+  },
+  "contributions": {
+    "pending-gamesheets": "My pending gamesheets",
+    "pending-cards": "My pending cards"
+  },
+  "personnal-page": {
+    "settings": "Settings",
+    "favorite-sheets": "Favorite gamesheets",
+    "published-gamesheets": "Published gamesheets",
+    "published-cards": "Published cards"
+  },
+  "settings": {
+    "profil-picture": "Update profil picture",
+    "password": "Update password"
+  },
+  "validation": {
+    "pending-gamesheets": "Pending gamesheets",
+    "pending-cards": "Pending cards"
+  },
+  "user-confirm": {
+    "registered": "Register complete, you can now login. Redirecting..."
+  },
+  "private-route": {
+    "message": "Forbidden"
+  },
+  "require-auth": {
+    "add-card": "You must be logged in to add a Card.",
+    "add-gamesheet": "You must be logged in to add a Gamesheet.",
+    "add-favorite": "You must be logged in to add this to your bookmark.",
+    "like-card": "You must be logged in to like this card.",
+    "unavailable": "Unavailable."
+  }
+}

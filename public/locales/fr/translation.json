@@ -1,0 +1,149 @@
+{
+  "header": {
+    "menu-link-2": "Quiz en ligne"
+  },
+  "user-menu": {
+    "login-button": "Connexion"
+  },
+  "login-part": {
+    "title": "Connexion à VGCQ",
+    "connect-text": "Ou utilisez votre compte",
+    "new-to-app": "Vous êtes nouveau sur VGCQ ?",
+    "join": "Rejoignez-nous !"
+  },
+  "login-form": {
+    "username-label": "Identifiant",
+    "password-label": "Mot de passe",
+    "forgotten-pass": "Mot de passe oublié ?",
+    "connect-button": "Se connecter"
+  },
+  "register-part": {
+    "already-member": "Vous êtes déjà membre ?",
+    "login-part-button": "Connectez-vous !",
+    "title": "Rejoindre VGCQ"
+  },
+  "register-form": {
+    "username-label": "Identifiant",
+    "password-label": "Mot de passe",
+    "retyped-password-label": "Saisissez de nouveau le mot de passe",
+    "email-label": "Email",
+    "cgu-text": "J'accepte les ",
+    "cgu-link": "conditions générales",
+    "register-button": "Inscription",
+    "flash-message-success": "Inscription effectuée, veuillez vérifier vos emails."
+  },
+  "change-password-form": {
+    "flash-message-success": "Password modifié avec succès.",
+    "old-password-label": "Mot de passe actuel",
+    "new-password-label": "Nouveau mot de passe",
+    "retyped-new-password-label": "Retapez le nouveau mot de passe",
+    "submit-button": "Valider les modifications"
+  },
+  "image-browser": {
+    "delete-button": "Supprimer"
+  },
+  "gamesheet-list": {
+    "author": "Auteur",
+    "low-cards-number": "carte publiée",
+    "high-cards-number": "cartes publiées",
+    "no-sheet-message": "Aucune fiche trouvée. Vous pouvez en créer une en vous connectant.",
+    "no-unpublished-sheet": "Aucune fiche en cours de validation."
+  },
+  "card-list": {
+    "author": "Auteur",
+    "no-card-found": "Aucune carte trouvée.",
+    "no-unpublished-card": "Aucune carte en cours de validation."
+  },
+  "gamesheet": {
+    "no-cards": "Aucune carte sur cette fiche. Vous pouvez dès à présent en ajouter.",
+    "page-not-found": "Cette page n'existe pas.",
+    "in-validation": "Cette fiche est en cours de validation."
+  },
+  "gamesheet-header": {
+    "card": "{{number}} carte sur cette fiche.",
+    "cards": "{{number}} cartes sur cette fiche."
+  },
+  "add-form-button": {
+    "card-text": "La carte n'existe pas ? Créez la!",
+    "gamesheet-text": "La fiche n'existe pas? Ajoutez la!"
+  },
+  "load-more": {
+    "card-text": "Charger plus de cartes",
+    "gamesheet-text": "Charger plus de fiches"
+  },
+  "sorting-container": {
+    "sort-options": "Choisir un mode de tri",
+    "card-most-popular": "Cartes les plus populaires",
+    "gamesheet-most-popular": "Fiches les plus populaires",
+    "card-less-popular": "Cartes les moins populaires",
+    "gamesheet-less-popular": "Fiches les moins populaires"
+  },
+  "card-form": {
+    "flash-edit-success": "Carte editée et validée.",
+    "flash-add-success": "Carte envoyée. En attente de validation par nos modérateurs.",
+    "content-label": "Saisie du contenu de la carte. {{number}} caractères restants.",
+    "question-placeholder": "Saisissez une question associée au contenu de la carte.",
+    "question-label": "Question",
+    "answers-placeholder": "Réponses acceptées",
+    "answers-label": "Réponse(s) acceptée(s): (séparées par une virgule)",
+    "difficulty-label": "Difficulté de la question",
+    "easy": "Facile",
+    "medium": "Normale",
+    "hard": "Difficile",
+    "submit-button": "Ajouter la carte",
+    "no-difficulty": "Vous devez selectionner une difficulté.",
+    "no-question": "Vous devez écrire une question.",
+    "no-answers": "Vous devez écrire une ou plusieurs réponses."
+  },
+  "image-upload": {
+    "input-title": "Cliquez ou glissez pour ajouter une image"
+  },
+  "search-gamesheet-form": {
+    "card-text": "Recherche par mot clé...",
+    "gamesheet-text": "Rechercher une fiche..."
+  },
+  "update-avatar-form": {
+    "flash-success": "Image de profil mise à jour",
+    "submit-button": "Mettre à jour l'image de profil"
+  },
+  "gamesheet-form": {
+    "flash-edit-success": "Fiche éditée et validée",
+    "flash-add-success": "Fiche envoyée. En attende de validation par nos modérateurs. Vous pouvez dès à présent y ajouter des informations",
+    "name-label": "Nom de la fiche",
+    "submit-button": "Envoyer"
+  },
+  "bookmark-list": {
+    "favorite": "Aucune fiches en favoris"
+  },
+  "contributions": {
+    "pending-gamesheets": "Mes fiches en attente de validation",
+    "pending-cards": "Mes cartes en attente de validation"
+  },
+  "personnal-page": {
+    "settings": "Réglages",
+    "favorite-sheets": "Fiches préférées",
+    "published-gamesheets": "Fiches publiées",
+    "published-cards": "Cartes publiées"
+  },
+  "settings": {
+    "profil-picture": "Modification de la photo de profil",
+    "password": "Modification du mot de passe"
+  },
+  "validations": {
+    "pending-gamesheets": "Fiches en attente de validation",
+    "pending-cards": "Cartes en attente de validation"
+  },
+  "user-confirm": {
+    "registered": "Inscription validée, vous pouvez vous connecter. Redirection..."
+  },
+  "private-route": {
+    "message": "Vous n'avez pas l'autorisation d'accéder à cette page"
+  },
+  "require-auth": {
+    "add-card": "Vous n'êtes pas connecté. Connectez-vous pour ajouter une carte.",
+    "add-gamesheet": "Vous n'êtes pas connecté. Connectez-vous pour ajouter une fiche.",
+    "add-favorite": "Vous devez être connecté pour ajouter cette fiche aux favoris.",
+    "like-card": "Vous devez être connecté pour liker cette carte.",
+    "unavailable": "La fonction est indisponible pour le moment."
+  }
+}
