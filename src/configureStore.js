@@ -11,17 +11,17 @@ const middlewares = [routerMiddleware(history), thunk, tokenMiddleware];
 const initialState = {};
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-// const store = createStore(
-//   rootReducer,
-//   initialState,
-//   composeEnhancers(applyMiddleware(...middlewares))
-// );
+const store = createStore(
+  rootReducer,
+  initialState,
+  composeEnhancers(applyMiddleware(...middlewares))
+);
 
-const devTools =
-  process.env.NODE_ENV === "production"
-    ? composeEnhancers(applyMiddleware(...middlewares))
-    : applyMiddleware(...middlewares);
+// const devTools =
+//   process.env.NODE_ENV === "production"
+//     ? composeEnhancers(applyMiddleware(...middlewares))
+//     : applyMiddleware(...middlewares);
 
-const store = createStore(rootReducer, initialState, devTools);
+// const store = createStore(rootReducer, initialState, devTools);
 
 export default store;
