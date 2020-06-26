@@ -9,10 +9,10 @@ import * as serviceWorker from "./serviceWorker";
 
 import store, { history } from "./configureStore";
 
-// /* eslint-disable no-unused-expressions */
-// import("./style/design.css");
-// /* eslint-disable no-unused-expressions */
-// import("./style/fontawesome/css/all.css");
+/* eslint-disable no-unused-expressions */
+import("./style/design.css");
+/* eslint-disable no-unused-expressions */
+import("./style/fontawesome/css/all.css");
 
 ReactDOM.render(
   <Provider store={store}>

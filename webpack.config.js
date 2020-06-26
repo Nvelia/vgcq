@@ -16,16 +16,10 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(jpg|jpeg|gif|png|ico)$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        loader: "file-loader?name=[name].[ext]",
-      },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "babel-loader",
-        query: {
-          presets: ["es2016", "react", "env", "stage-2"],
+        use: {
+          loader: "babel-loader",
         },
       },
     ],
