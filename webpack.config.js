@@ -20,14 +20,14 @@ module.exports = {
         exclude: /node_modules/,
         loader: "file-loader?name=[name].[ext]",
       },
-      // {
-      //   test: /\.js$/,
-      //   exclude: /node_modules/,
-      //   loader: "babel-loader",
-      //   query: {
-      //     presets: ["es2016", "react", "env", "stage-2"],
-      //   },
-      // },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
+        query: {
+          presets: ["es2016", "react", "env", "stage-2"],
+        },
+      },
     ],
   },
 };
