@@ -5,7 +5,7 @@ import { withTranslation } from "react-i18next";
 import { SERVER_ROOT } from "./../../utils/agent";
 
 const ImageBrowser = (props) => {
-  const { image, fromAvatar, t, imageDelete, avatarDelete } = this.props;
+  const { image, fromAvatar, t, imageDelete, avatarDelete } = props;
 
   function deleteOnClick(e) {
     e.preventDefault();
