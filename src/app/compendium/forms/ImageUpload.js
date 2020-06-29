@@ -40,7 +40,7 @@ const mapDispatchToProps = {
 };
 
 ImageUpload.propTypes = {
-  avatar: PropTypes.object,
+  avatar: PropTypes.bool,
   gameSheetImageUpload: PropTypes.func,
   avatarUpload: PropTypes.func,
 };

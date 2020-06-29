@@ -34,7 +34,6 @@ class FlashMessage extends PureComponent {
   static getDerivedStateFromProps(props, state) {
     let message = null;
     if (props.messages.length !== 0 && state.message !== props.messages) {
-      console.log(props);
       if (props.messages[0].text === "gamesheetEditText") {
         message = {
           type: "success",

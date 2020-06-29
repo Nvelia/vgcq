@@ -108,7 +108,7 @@
   },
   "gamesheet-form": {
     "flash-edit-success": "Fiche éditée et validée",
-    "flash-add-success": "Fiche envoyée. En attende de validation par nos modérateurs. Vous pouvez dès à présent y ajouter des informations",
+    "flash-add-success": "Fiche envoyée. En attende de validation par nos modérateurs.",
     "name-label": "Nom de la fiche",
     "submit-button": "Envoyer"
   },

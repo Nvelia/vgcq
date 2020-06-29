@@ -202,7 +202,7 @@ export const cardEdit = (cardId, value) => {
  * Votes sur cards
  */
 
-export const likesUpdated = (data, from) => ({
+export const likesUpdated = (data) => ({
   type: LIKES_UPDATED,
   data,
 });

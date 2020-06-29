@@ -27,7 +27,7 @@ const CardBack = (props) => {
         <form
           onSubmit={(e) => handleAnswer(e)}
           className={classnames("", {
-            "--bad-answered": cardsBadAnswered.includes(card.id),
+            "--bad-answered": cardsBadAnswered.includes(card.id.toString()),
           })}
         >
           <input

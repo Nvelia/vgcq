@@ -4,6 +4,7 @@ import { reduxForm } from "redux-form";
 import { connect } from "react-redux";
 import { withTranslation } from "react-i18next";
 
+import Spinner from "./../../partials/Spinner";
 import ImageUpload from "./ImageUpload";
 import ImageBrowser from "../ImageBrowser";
 import { addFlashMessage } from "../../../actions/flashMessageActions";
@@ -53,7 +54,11 @@ class UpdateAvatarForm extends Component {
             className="sort-btn"
             disabled={image.reqInProgress}
           >
-            {t("update-avatar-form.submit-button")}
+            {image.reqInProgress ? (
+              <Spinner />
+            ) : (
+              t("update-avatar-form.submit-button")
+            )}
           </button>
         </form>
       </div>
@@ -73,7 +78,7 @@ const mapDispatchToProps = {
 };
 
 UpdateAvatarForm.propTypes = {
-  userId: PropTypes.number,
+  userId: PropTypes.string,
   image: PropTypes.object,
   imageUnload: PropTypes.func,
   addFlashMessage: PropTypes.func,

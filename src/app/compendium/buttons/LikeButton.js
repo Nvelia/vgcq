@@ -21,7 +21,6 @@ class LikeButton extends Component {
 
   componentDidUpdate(prevProps, prevState) {
     const { auth, card } = this.props;
-
     if (prevProps !== this.props) {
       if (card.likes.includes(auth.userId)) {
         this.setState({

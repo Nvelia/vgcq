@@ -65,7 +65,7 @@ const mapDispatchToProps = {
 };
 
 ChangePasswordForm.propTypes = {
-  userId: PropTypes.object,
+  userId: PropTypes.string,
   resetPassword: PropTypes.func,
   addFlashMessage: PropTypes.func,
 };

@@ -129,9 +129,11 @@ export default function cardReducer(
       };
 
     case LIKES_UPDATED:
-      let list = [...state.list];
-      if (state.randomCard && state.randomCard.id === action.data.id) {
-        state.randomCard.likes = action.data.likes;
+      let list = state.list && [...state.list];
+      var randomCard = state.randomCard && Object.assign({}, state.randomCard);
+
+      if (randomCard && randomCard.id === action.data.id) {
+        randomCard.likes = action.data.likes;
       } else {
         list.map((card) => {
           if (card.id === action.data.id) {
@@ -144,6 +146,7 @@ export default function cardReducer(
       return {
         ...state,
         list: list,
+        randomCard: randomCard,
       };
 
     default:
