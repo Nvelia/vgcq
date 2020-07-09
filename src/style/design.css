@@ -1434,7 +1434,19 @@ button:focus {
   list-style-type: none;
   display: flex;
   margin: auto;
-  width: 170px;
+  width: 120px;
+  min-height: 30px;
+  position: relative;
+}
+.login-modal .login-part .social-btns .spinner {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 1.2em;
 }
 .login-modal .login-part .social-btns li {
   margin: 10px;
@@ -1442,11 +1454,14 @@ button:focus {
 .login-modal .login-part .social-btns li:hover {
   cursor: pointer;
 }
+.login-modal .login-part .social-btns li a {
+  color: #464646;
+}
 .login-modal .login-part .social-btns li i {
   font-size: 2.5em;
 }
-.login-modal .login-part .social-btns .facebook:hover i {
-  color: #38569a;
+.login-modal .login-part .social-btns .twitch:hover i {
+  color: #9147ff;
 }
 .login-modal .login-part .social-btns .twitter:hover i {
   color: #20a6ee;

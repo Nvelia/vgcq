@@ -18,6 +18,7 @@ import Contributions from "./auth/Contributions";
 import Settings from "./auth/Settings";
 
 import FlashMessage from "./partials/FlashMessage";
+import BackendRedirection from "./partials/BackendRedirection";
 import GamesheetForm from "./compendium/forms/GamesheetForm";
 import CardForm from "./compendium/forms/CardForm";
 
@@ -47,6 +48,11 @@ class App extends Component {
     const { userId, user } = this.props.auth;
 
     if (prevProps.userId !== userId && userId !== null && user.data === null) {
+      const token = window.localStorage.getItem("jwtToken");
+      if (token) {
+        requests.setToken(token);
+      }
+
       userFetch(userId);
     }
   }
@@ -69,6 +75,12 @@ class App extends Component {
             <Route exact path="/" component={MainPageContainer}>
               <Redirect to="/compendium"></Redirect>
             </Route>
+
+            <Route
+              exact
+              path="/check-backend/:id/:token"
+              component={BackendRedirection}
+            ></Route>
 
             <Route exact path="/compendium" component={MainPageContainer} />
             <Route

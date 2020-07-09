@@ -1,25 +1,42 @@
-import React from "react";
+import React, { Component, Fragment } from "react";
 
+import Spinner from "./../partials/Spinner";
 import RequireAuth from "../../HOC/RequireAuth";
+import { SERVER_ROOT } from "./../../utils/agent";
 
-const Socials = (props) => {
-  function errorMessage() {
-    props.errorMessageCallback();
+class Socials extends Component {
+  state = {
+    clicked: false,
+  };
+
+  buttonClicked = () => {
+    this.setState({
+      clicked: true,
+    });
+  };
+
+  render() {
+    return (
+      <ul className="social-btns">
+        {this.state.clicked ? (
+          <Spinner />
+        ) : (
+          <Fragment>
+            <li className="google" onClick={() => this.buttonClicked()}>
+              <a href={`${SERVER_ROOT}connect/google`}>
+                <i className="fab fa-google-plus-square"></i>
+              </a>
+            </li>
+            <li className="twitch" onClick={() => this.buttonClicked()}>
+              <a href={`${SERVER_ROOT}connect/twitch`}>
+                <i className="fab fa-twitch"></i>
+              </a>
+            </li>
+          </Fragment>
+        )}
+      </ul>
+    );
   }
-
-  return (
-    <ul className="social-btns">
-      <li className="facebook" onClick={errorMessage}>
-        <i className="fab fa-facebook-square"></i>
-      </li>
-      <li className="twitter" onClick={errorMessage}>
-        <i className="fab fa-twitter-square"></i>
-      </li>
-      <li className="google" onClick={errorMessage}>
-        <i className="fab fa-google-plus-square"></i>
-      </li>
-    </ul>
-  );
-};
+}
 
 export default RequireAuth(Socials);
